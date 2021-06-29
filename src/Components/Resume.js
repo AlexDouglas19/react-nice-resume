@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { testModeAPI } from "react-ga";
 import Slide from "react-reveal";
 
 class Resume extends Component {
@@ -60,13 +59,21 @@ class Resume extends Component {
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Experience</span>
+                <span>Areas Covered</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
               <div className="row item">
-                <div className="twelve columns">{education}</div>
+                <div className="twelve columns">
+                  <p className="info"><em className="date">Dunedin</em></p>
+                  <p className="info"><em className="date">Waitati to Palmerston</em></p>
+                  <p className="info"><em className="date">Palmerston to Ranfurly (including Naseby)</em></p>
+                  <p className="info"><em className="date">Mosgiel, North Taieri and Outram</em></p>
+                  <p className="info"><em className="date">Green Island to Milton (including Brighton)</em></p>                  
+                  <p className="info"><em className="date">Balclutha depending upon size of job</em></p>        
+                  <p className="info"><em className="date">Other - please call</em></p>        
+                </div>
               </div>
             </div>
           </div>

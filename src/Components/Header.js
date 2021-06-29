@@ -50,7 +50,7 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h2>{description}</h2>
             </Fade>            
           </div>
         </div>
