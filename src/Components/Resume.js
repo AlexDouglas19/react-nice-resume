@@ -18,11 +18,12 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              <p className="info"><em className="date">New wiring and wiring upgrades</em></p>
-              <p className="info"><em className="date">Fault finding and repairs</em></p>
-              <p className="info"><em className="date">Lighting and additional power points</em></p>
-              <p className="info"><em className="date">Ventilation</em></p>
-              <p className="info"><em className="date">TV and Data</em></p>
+            <p className="info">One Earth Electrical offer a quality cost-effective service for all residential wiring needs:</p>                  
+              <p className="info"><span>&bull;</span><em className="date">New wiring and wiring upgrades</em></p>
+              <p className="info"><span>&bull;</span><em className="date">Fault finding and repairs</em></p>
+              <p className="info"><span>&bull;</span><em className="date">Lighting and additional power points</em></p>
+              <p className="info"><span>&bull;</span><em className="date">Ventilation</em></p>
+              <p className="info"><span>&bull;</span><em className="date">TV and Data</em></p>
             </div>
           </div>
         </Slide>
