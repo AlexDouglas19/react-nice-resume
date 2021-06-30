@@ -28,16 +28,14 @@ class Header extends Component {
                 Home
               </a>
             </li>
-
-            <li>
-              <a className="smoothscroll" href="#about">
-                About
-              </a>
-            </li>
-
             <li>
               <a className="smoothscroll" href="#resume">
                 What We Do
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#about">
+                Contact Details
               </a>
             </li>
           </ul>
@@ -56,7 +54,7 @@ class Header extends Component {
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <a className="smoothscroll" href="#resume">
             <i className="icon-down-circle"></i>
           </a>
         </p>
