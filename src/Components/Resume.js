@@ -6,34 +6,6 @@ class Resume extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const skillmessage = this.props.data.skillmessage;
-    const education = this.props.data.education.map(function (education) {
-      return (
-        <div key={education.school}>
-          <h3>{education.school}</h3>
-          <p className="info">
-            {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
-          </p>
-          <p>{education.description}</p>
-        </div>
-      );
-    });
-
-
-    const work = this.props.data.work.map(function (work) {
-      return (
-        <div key={work.company}>
-          <h3>{work.company}</h3>
-          <p className="info">
-            {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
-          </p>
-          <p>{work.description}</p>
-        </div>
-      );
-    });
-
     return (
       <section id="resume">
 
@@ -41,16 +13,16 @@ class Resume extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Services</span>
+                <span>What We Do</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
-              <p className="info"><em className="date">Service 1</em></p>
-              <p className="info"><em className="date">Service 2</em></p>
-              <p className="info"><em className="date">Service 3</em></p>
-              <p className="info"><em className="date">Service 4</em></p>
-              <p className="info"><em className="date">Service 5</em></p>
+              <p className="info"><em className="date">New wiring and wiring upgrades</em></p>
+              <p className="info"><em className="date">Fault finding and repairs</em></p>
+              <p className="info"><em className="date">Lighting and additional power points</em></p>
+              <p className="info"><em className="date">Ventilation</em></p>
+              <p className="info"><em className="date">TV and Data</em></p>
             </div>
           </div>
         </Slide>
@@ -66,13 +38,8 @@ class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <p className="info"><em className="date">Dunedin</em></p>
-                  <p className="info"><em className="date">Waitati to Palmerston</em></p>
-                  <p className="info"><em className="date">Palmerston to Ranfurly (including Naseby)</em></p>
-                  <p className="info"><em className="date">Mosgiel, North Taieri and Outram</em></p>
-                  <p className="info"><em className="date">Green Island to Milton (including Brighton)</em></p>                  
-                  <p className="info"><em className="date">Balclutha depending upon size of job</em></p>        
-                  <p className="info"><em className="date">Other - please call</em></p>        
+                  <p className="info"><em className="date">Dunedin and surrounds</em></p>
+                  <p className="info"><em className="date">Ranfurly/Naseby area by arrangement (please call for details)</em></p>     
                 </div>
               </div>
             </div>

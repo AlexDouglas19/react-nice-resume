@@ -2,7 +2,8 @@
   "main": {
     "name":"One Earth Electrical",
     "owner":"Andrew Parkinson",
-    "description":"Domestic electrician available for small to large electrical jobs within Dunedin and surrounding areas. For fast and friendly service please call Andrew on 027 266 3906.",
+    "description1":"Licensed electrician available for all aspects of domestic wiring.",
+    "description2":"Tel: 027 266 3906",
     "image":"profilepic.jpg",
     "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",

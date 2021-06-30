@@ -7,10 +7,8 @@ class About extends Component {
 
     const owner = this.props.data.owner;
     const profilepic = "images/" + this.props.data.image;
-    const bio = this.props.data.bio;
     const phone = this.props.data.phone;
     const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
 
     return (
       <section id="about">
@@ -24,9 +22,6 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
-
-              <p>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
